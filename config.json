@@ -1,0 +1,53 @@
+{
+    "params": {
+        "db_data": {
+            "db-uri": "mysql://root:@localhost/chatapp",
+            "host": "localhost",
+            "user": "root",
+            "password": "",
+            "database": "chatapp",
+            "upload_location": "C:\\Users\\adity\\Desktop\\swipe-chat-platform\\static\\img\\avatars"
+        },
+        "user_data": {
+            "uid": 10,
+            "username": "adi",
+            "email": "adi@gmail.com",
+            "dp": "avatar10.jpg",
+            "friends": [
+                {
+                    "friend_uid": 11,
+                    "friend_name": "kan",
+                    "friend_email": "kansara@gmail.com",
+                    "friend_dp": "avatar11.jpg"
+                },
+                {
+                    "friend_uid": 12,
+                    "friend_name": "tya",
+                    "friend_email": "tya@gmail.com",
+                    "friend_dp": null
+                },
+                {
+                    "friend_uid": 13,
+                    "friend_name": "sara",
+                    "friend_email": "sara@gmail.com",
+                    "friend_dp": null
+                }
+            ],
+            "groups": [
+                {
+                    "group_id": "",
+                    "group_name": "",
+                    "group_dp": "",
+                    "group_members": [
+                        {
+                            "member_uid": "",
+                            "member_name": "",
+                            "member_dp": "",
+                            "member_email": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<body>
+<head>
+    <meta charset="utf-8">
+    <title>Swipe – The Simplest Chat Platform</title>
+    <meta name="description" content="#">
+    <meta http-equiv='cache-control' content='no-cache'> 
+    <meta http-equiv='expires' content='0'> 
+    <meta http-equiv='pragma' content='no-cache'> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap core CSS -->
+    <link href="{{url_for('static', filename='css/lib/bootstrap.min.css')}}" type="text/css" rel="stylesheet">
+    <!-- Swipe core CSS -->
+    <link href="{{url_for('static', filename='css/swipe.min.css')}}" type="text/css" rel="stylesheet">
+    <!-- Favicon -->
+    <link href="{{url_for('static', filename='img/favicon.png')}}" type="image/png" rel="icon">
+</head>
+
+
+
+    {%block body%} {%endblock%}
+
+
+    <!-- Bootstrap/Swipe core JavaScript
+		================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="static/js/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="static/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="{{url_for('static', filename='js/vendor/popper.min.js')}}"></script>
+    <script src="{{url_for('static', filename='js/swipe.min.js')}}"></script>
+    <script src="{{url_for('static', filename='js/bootstrap.min.js')}}"></script>
+    <script src="{{url_for('static', filename='js/main.js')}}"></script>
+    <script>
+        // function scrollToBottom(el) { el.scrollTop = el.scrollHeight; }
+        // scrollToBottom(document.getElementById('content'));
+
+        // $(document).ready(function() {
+        //     var socket = io.connect('http://localhost:5000/');
+        //     socket.on('connect', () => {
+        //         socket.emit('my event', {
+        //             data:"User Connected"
+        //         })
+        //     });
+
+        //     socket.on('my response',msg => {
+        //         console.log(msg);
+        //     });
+        // });
+    </script>
+</body>
+
+</html>
